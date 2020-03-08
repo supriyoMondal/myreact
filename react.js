@@ -30,4 +30,3 @@ export const render = (reactElementOrString, container) => {
     }
     container.appendChild(actualDomElement);
 }
-

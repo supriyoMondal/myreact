@@ -3,6 +3,7 @@ import { React, render } from './react';
 const states = [];
 let stateCursor = 0;
 
+
 const rerender = () => {
     stateCursor = 0;
     document.querySelector('#app').firstChild.remove();
@@ -38,7 +39,6 @@ const App = () => {
             <button onclick={() => {
                 setCount(count - 1)
             }} >-</button>
-
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore quis optio explicabo, earum asperiores voluptate dolor iure voluptatem ipsum similique odit officiis quae eaque.</p>
         </div>
     )

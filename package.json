@@ -4,12 +4,15 @@
   "description": "",
   "main": "react.js",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "parcel": "^1.12.4",
     "typescript": "^3.8.3"
   },
   "devDependencies": {},
+  "homepage": "https://github.com/supriyoMondal/myreact",
   "scripts": {
-    "dev": "parcel index.html"
+    "start": "parcel index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
